@@ -40,7 +40,7 @@ const mockVideos: VideoData[] = [
   },
   {
     id: "3",
-    title: "New tech gadgets review - Must have in 2023",
+    title: "New tech gadgets review - Must have in 2025",
     thumbnailUrl: "https://images.unsplash.com/photo-1531297484001-80022131f5a1",
     duration: 320,
     views: 25600,
@@ -135,7 +135,7 @@ const Index = () => {
             className="absolute inset-0 opacity-10"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1535016120720-40c646be5580')",
+                "url('https://images.unsplash.com/photo-1494424698959-eeb116f0daac?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
