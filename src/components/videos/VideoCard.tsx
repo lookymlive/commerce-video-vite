@@ -67,7 +67,7 @@ export const VideoCard = ({ video, index = 0 }: VideoCardProps) => {
           />
           <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             <div className="h-12 w-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-              <Play className="h-6 w-6 text-white fill-white" />
+            <Play className="h-6 w-6 text-purple-500 fill-purple-600" />
             </div>
           </div>
           <div className="absolute bottom-2 right-2 bg-black/60 text-white text-xs px-2 py-1 rounded">
