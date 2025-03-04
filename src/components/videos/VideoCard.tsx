@@ -1,8 +1,7 @@
-
-import { Link } from "react-router-dom";
-import { Play, Clock, Heart, MessageCircle } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { motion } from "framer-motion";
+import { Heart, MessageCircle, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export interface VideoData {
   id: string;

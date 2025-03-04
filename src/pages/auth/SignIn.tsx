@@ -99,7 +99,7 @@ const SignIn = () => {
                 id="password"
                 name="password"
                 type={showPassword ? "text" : "password"}
-                placeholder="••••••••"
+                placeholder="********"
                 value={formData.password}
                 onChange={handleChange}
                 className="pl-10"

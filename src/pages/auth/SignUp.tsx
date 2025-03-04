@@ -114,7 +114,7 @@ const SignUp = () => {
                 id="password"
                 name="password"
                 type={showPassword ? "text" : "password"}
-                placeholder="••••••••"
+                placeholder="********"
                 value={formData.password}
                 onChange={handleChange}
                 className="pl-10"
@@ -170,7 +170,7 @@ const SignUp = () => {
             >
               <div className="flex items-center space-x-2 border rounded-md p-3 cursor-pointer hover:border-primary transition-colors">
                 <RadioGroupItem value="user" id="user" />
-                <Label htmlFor="user" className="cursor-pointer">Regular User (watch & comment)</Label>
+                <Label htmlFor="user" className="cursor-pointer">Regular User (watch, buy & comment )</Label>
               </div>
               <div className="flex items-center space-x-2 border rounded-md p-3 cursor-pointer hover:border-primary transition-colors">
                 <RadioGroupItem value="merchant" id="merchant" />
